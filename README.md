@@ -32,6 +32,5 @@ Moreover, I understand the fact that there can be deviations/errors in getting t
 
 ## Images
 
-<img src="https://https://github.com/ishubham21/Weather-Chrome-Extension/blob/master/imgs/display-1.png/" alt="Image-1">
-
-<img src="https://https://github.com/ishubham21/Weather-Chrome-Extension/blob/master/imgs/display-2.png/" alt="Image-2">
+<img align="center" alt="Movies" src="https://raw.githubusercontent.com/ishubham21/Weather-Chrome-Extension/master/imgs/display-1.png" width="500" height="500" />
+<img align="center" alt="Movies" src="https://raw.githubusercontent.com/ishubham21/Weather-Chrome-Extension/master/imgs/display-2.png" width="500" height="500" />
