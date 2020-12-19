@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Weather Extension",
+    "description": "This extension will let you know weather of your area depending upon your location",
+    "version": "1",
+    "author": "Shubham Gautam",
+    "permissions": [
+        "activeTab",
+        "geolocation",
+        "http://*.google.com/"
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Weather App"
+    },
+    "icons": {
+        "16": "imgs/logo.png",
+        "48": "imgs/logo.png",
+        "128": "imgs/logo.png"
+    }
+}
