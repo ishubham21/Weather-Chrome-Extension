@@ -2,7 +2,7 @@
 
 You've got your weather widegts in your phone and they work nice. But but, how would it be if you can get your personalised weather feed right in your browser? Well, this is the only purpose behind this chrome extension. 
 
-This extension takes up your location automatically from Chrome and thus, shows you instant results. 
+This extension takes up your location automatically from Chrome and thus shows you instant results. 
 
 Moreover, I understand the fact that there can be deviations/errors in getting the proper coordinates from your browser and thus this project may show you data/weather of wrong locations. But worry not! You can always change your city from the button provided at the bottom.
 
@@ -29,4 +29,6 @@ Moreover, I understand the fact that there can be deviations/errors in getting t
 5. Browse the location of the saved project
 
 6. You're good to go now. You'll be able to locate the extension in the extensions' section
+
+## Images
 
