@@ -24,13 +24,13 @@ function computeCity(lati, long){
 //using openweathermap API to get weather related things
 function getWeatherDetails(city) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&apikey=946c870db6ca82b017d54a8aa62c349a`)
-    .then(weatherObj => weatherObj.json())
-    .then((weatherData) => {
-        printData(weatherData.name, weatherData.main.temp, weatherData.main.feels_like, weatherData.weather[0].main, weatherData.main.humidity, weatherData.main.temp_min, weatherData.main.temp_max, weatherData.sys.sunrise, weatherData.sys.sunset)
-    })
-    .catch((err) => {
-        alert('Server error:', err)
-    })
+        .then(weatherObj => weatherObj.json())
+        .then((weatherData) => {
+            printData(weatherData.name, weatherData.main.temp, weatherData.main.feels_like, weatherData.weather[0].main, weatherData.main.humidity, weatherData.main.temp_min, weatherData.main.temp_max, weatherData.sys.sunrise, weatherData.sys.sunset)
+        })
+        .catch((err) => {
+            alert('Server error:', err)
+        })
 }
 
 function printData(cityName, temp, feels_like, weather, humidity, minTemp, maxTemp, sunR, sunS){
